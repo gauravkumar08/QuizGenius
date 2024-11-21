@@ -1,1 +1,2 @@
-# QuizGenius
+The Quiz Application is a secure, interactive platform with seamless user registration, personalized logins, and dynamic, time-bound quizzes. It includes real-time webcam monitoring to prevent cheating and ensure integrity. Its responsive design ensures consistent performance across all devices. Users receive instant feedback with scores, percentages, and personalized messages to encourage continued learning.
+Demonstrating expertise in front-end and back-end technologies, with advanced security features like encryption and secure authentication to protect user data and maintain trust.
