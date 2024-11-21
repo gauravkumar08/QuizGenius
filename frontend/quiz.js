@@ -247,7 +247,6 @@ function finishQuiz() {
     // Display the score and percentage
     scoreText.textContent = `You scored ${correctAnswers} out of ${totalQuestions} (${percentage}%)`;
 
-    // Check if the user got full marks and only then display the appreciation message
     if (correctAnswers === totalQuestions) {
         // Display appreciation message with emojis
         const appreciationMessage = document.createElement("p");
@@ -260,16 +259,11 @@ function finishQuiz() {
         scoreContainer.appendChild(appreciationMessage);
     }
 
-    // Show the score container
     scoreContainer.classList.remove("hidden");
 
     // Hide the quiz container
     document.getElementById("quiz-container").classList.add("hidden");
 }
-
-
-
-
 
 function restartQuiz() {
     userSelections.fill(null);
@@ -282,7 +276,6 @@ function restartQuiz() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Initially, hide the quiz container and start-test button until webcam access is granted
     document.getElementById("quiz-container").classList.add("hidden");
     startTestContainer.classList.add("hidden");
 });
