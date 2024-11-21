@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Quiz Genius</h1>
+
+    <form id="registerForm" class="form-container">
+      <h2>Register</h2>
+      <input type="text" id="username" placeholder="Enter Username" required />
+      <input type="password" id="password" placeholder="Enter Password" required />
+      <button type="submit">Register</button>
+    </form>
+    
+    <form id="loginForm" class="form-container hidden">
+      <h2>Login</h2>
+      <input type="text" id="loginUsername" placeholder="Enter Username" required />
+      <input type="password" id="loginPassword" placeholder="Enter Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <div id="quizPage" class="hidden">
+      <h2>Welcome to the Quiz!</h2>
+      <p>Start your journey of knowledge.</p>
+
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
