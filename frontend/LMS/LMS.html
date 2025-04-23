@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepBuddy</title>
+    <meta name="Description" content="">
+    <meta name="Keywords" content="Coding,C++,Java,Js,problem,Python,C,Software">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="Shortcut Icon" href="/GFG Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,300;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="LMS.css">
+    <script src="LMS.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./PrepBuddy.svg" alt="PrepBuddy">
+            </div>
+
+            <ul class="menu">
+                <!-- <li>
+                    <a href="#">Tutorials</a>
+                    <ul class="Submenu">
+                        <li>
+                            <a href="#">Data Structures</a>
+                            <ul class="Submenu2">
+                                <li><a href="#">Arrays</a></li>
+                                <li><a href="#">Linked Lists</a></li>
+                                <li><a href="#">Stacks</a></li>
+                                <li><a href="#">Queues</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Algorithms</a>
+                            <ul class="Submenu2">
+                                <li><a href="#">Searching</a></li>
+                                <li><a href="#">Sorting</a></li>
+                                <li><a href="#">Graph Algorithms</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Languages</a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Courses</a>
+                    <ul class="Submenu">
+                        <li><a href="#">DSA Self Paced</a></li>
+                        <li><a href="#">DSA Live</a></li>
+                        <li><a href="#">Java Backend</a></li>
+                        <li><a href="#">Full Stack Development</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:5500/frontend/jobs.html">Jobs</a></li> -->
+                <li><a href="./admin/admin-add-course.html">Admin</a></li>
+                <li><a href="/frontend/Proctoring/quiz.html" class="nav-link">Proctoring Mode</a></li>
+            </ul>
+
+            <!-- Search Bar -->
+            <div class="SearchBar_Header">
+                <input type="text" id="searchInput" placeholder="Search courses...">
+                <div class="SearchIcon"><i class="fa fa-search"></i></div>
+            </div>
+
+            <!-- User Profile and Logout -->
+            <div class="user-profile">
+                <span id="usernameDisplay"></span>
+                <div class="logout-dropdown">
+                    <button id="logoutButton">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="Part3">
+        <h1>Learn From Our Courses</h1>
+        <div class="ViewAll_1">
+            <a href="#">View All</a>
+        </div>
+
+        <!-- Course Filters -->
+        <div class="course-filters">
+            <button data-category="all" class="active-filter">All Courses</button>
+            <button data-category="dsa">DSA</button>
+            <button data-category="backend">Backend</button>
+            <button data-category="fullstack">Fullstack</button>
+            <button data-category="devops">DevOps</button>
+        </div>
+
+        <!-- Courses Container -->
+        <div class="courses-container">
+            <!-- Courses will be loaded dynamically here -->
+        </div>
+    </div>
+</body>
+
+</html>
